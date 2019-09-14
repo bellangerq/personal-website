@@ -1,0 +1,27 @@
+$colors: (
+  'black': #000000,
+  gray-dark: #333333,
+  gray-mid: #8a8a8a,
+  gray-light: #EBEBEB,
+  'white': #FFFFFF,
+
+  primary: #1d274a,
+  secondary: #fffdac
+);
+
+$weights: (
+  semibold: 600,
+  normal: 500
+);
+
+$spacing: (
+  x-large: 4rem,
+  large: 2rem,
+  medium: 1rem,
+  small: 0.5rem,
+  x-small: 0.25rem
+);
+
+$breakpoints: (
+  mobile: 50rem
+);

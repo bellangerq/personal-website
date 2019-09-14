@@ -1,0 +1,9 @@
+<div class="hero">
+  <h1><%= title %></h1>
+  <% if locals[:date] %>
+    <%= partial 'partials/date', locals: { date: date } %>
+  <% end %>
+  <% if locals[:description] %>
+    <p><%= description %></p>
+  <% end %>
+</div>

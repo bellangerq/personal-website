@@ -1,0 +1,44 @@
+@import './highlighting.css';
+@import './reset';
+@import './config';
+@import './mixins';
+@import './typography';
+@import './partials/date';
+@import './partials/header';
+@import './partials/hero';
+@import './partials/posts';
+@import './partials/pagination';
+
+body {
+  background-color: map-get($colors, 'white');
+  min-height: 100vh;
+
+  main {
+    margin: map-get($spacing, 'x-large') * 2 auto map-get($spacing, 'x-large');
+    max-width: 45rem;
+    padding: 0 map-get($spacing, 'medium');
+
+    @include mobile {
+      margin-top: map-get($spacing, 'x-large') * 1.5;
+    }
+
+    a {
+      transition: background 0.25s, box-shadow 0.25s;
+
+      &:focus {
+        background: map-get($colors, 'secondary');
+        box-shadow: 0 0 0 0.075em map-get($colors, 'secondary');
+      }
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.001ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.001ms !important;
+    }
+  }
+}

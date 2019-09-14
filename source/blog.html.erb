@@ -1,0 +1,9 @@
+---
+title: "Writing"
+description: "I write about the web."
+pageable: true
+---
+
+<%= partial 'partials/hero', locals: { title: current_page.data.title, description: current_page.data.description } %>
+<%= partial 'partials/posts', locals: { articles: page_articles } %>
+<%= partial 'partials/pagination' %>

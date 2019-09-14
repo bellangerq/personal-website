@@ -1,0 +1,12 @@
+<ul class="posts">
+  <% locals[:articles].each do |article, i| %>
+    <li>
+      <h2><%= link_to article.title, article %></h2>
+      <%= partial 'partials/date', locals: { date: article.date } %>
+    </li>
+  <% end %>
+</ul>
+
+<% if locals[:allLink] %>
+  <%= link_to 'See all posts', '/blog.html' %>
+<% end %>

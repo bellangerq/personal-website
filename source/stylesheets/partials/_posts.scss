@@ -1,0 +1,10 @@
+.posts {
+  list-style: none;
+  padding: 0;
+
+  li {
+    & + li {
+      margin-top: map-get($spacing, 'x-large');
+    }
+  }
+}

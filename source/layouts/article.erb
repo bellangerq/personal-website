@@ -1,0 +1,6 @@
+<% wrap_layout :layout do %>
+  <article class="post">
+    <%= partial 'partials/hero', locals: { title: current_page.data.title, date: current_page.data.date } %>
+    <%= yield %>
+  </article>
+<% end %>

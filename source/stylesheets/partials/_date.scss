@@ -1,0 +1,14 @@
+time.date {
+  align-items: center;
+  color: map-get($colors, 'gray-mid');
+  display: flex;
+  font-size: 0.9em;
+  font-weight: map-get($weights, 'semibold');
+  text-transform: uppercase;
+
+  svg {
+    fill: currentColor;
+    margin-right: map-get($spacing, 'small');
+    width: 1em;
+  }
+}

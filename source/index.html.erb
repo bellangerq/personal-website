@@ -1,0 +1,12 @@
+---
+title: "Front-end developer"
+description: "I am a front-end web developer based in Laval, France. The main focus of my work is to build accessible, inclusive and user-friendly web interfaces for people I like to work with. I've collaborate on diverse projects such as Todoist, Aircall or Payfit. You can find some of my work on GitHub and drop me a line on Twitter. Otherwise I am a minimalist and I enjoy gaming, eSport, writing and basketball. Here are some of my blog posts."
+---
+
+<%= partial 'partials/hero', locals: { title: current_page.data.title, description: current_page.data.description } %>
+
+<section>
+  <%= partial 'partials/posts', locals: { allLink: true, articles: blog.articles[0...3] } %>
+</section>
+
+<%= partial 'partials/pagination' %>

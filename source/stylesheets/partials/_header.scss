@@ -1,0 +1,72 @@
+header {
+  nav {
+    align-items: center;
+    background-color: map-get($colors, 'primary');
+    display: flex;
+    min-height: map-get($spacing, 'medium') * 3.5;
+    padding: 0 map-get($spacing, 'medium');
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    > a {
+      display: flex;
+    }
+
+    a:focus,
+    a:hover {
+      outline: 0;
+    }
+
+    ul {
+      margin: 0;
+      padding: 0;
+
+      li {
+        display: inline-block;
+        font-size: 0.8em;
+        font-weight: map-get($weights, 'semibold');
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+
+        & + li {
+          margin-left: map-get($spacing, 'medium');
+        }
+
+        a {
+          color: map-get($colors, 'white');
+          display: inline-block;
+          padding: map-get($spacing, 'medium') 0;
+          position: relative;
+          text-decoration: none;
+          transition: border 0.2s, color 0.2s;
+
+          &::before {
+            background: map-get($colors, 'white');
+            content: '';
+            height: map-get($spacing, 'x-small');
+            opacity: 0;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            transition: opacity 0.25s ease, width 0.25s ease;
+            width: 0;
+          }
+
+          &.active {
+            border-color: map-get($colors, 'primary');
+            font-weight: map-get($weights, 'semibold');
+          }
+
+          &:focus::before,
+          &:hover::before {
+            width: 100%;
+            opacity: 1;
+          }
+        }
+      }
+    }
+  }
+}
