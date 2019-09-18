@@ -45,15 +45,7 @@ p {
 
 a {
   outline: none;
-  
-  &:hover {
-    text-decoration: none;
-  }
-  
-  &:focus {
-    border-radius: 0.1em;
-    text-decoration: none;
-  }
+  text-decoration: none;
 }
 
 code {
