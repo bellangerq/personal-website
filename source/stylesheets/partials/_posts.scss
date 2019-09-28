@@ -8,3 +8,7 @@
     }
   }
 }
+
+.all {
+  color: map-get($colors, 'primary');
+}
