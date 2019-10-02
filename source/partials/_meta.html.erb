@@ -1,16 +1,15 @@
-<title><%= current_page.data.title || data.site.title %></title>
+<title><%= "#{current_page.data.title || data.site.title} - Quentin Bellanger" %></title>
 <meta charset="utf-8">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="theme-color" content="#1d274a">
 <link href="/images/favicon.ico" rel="icon">
-<meta name="description" content="<%= data.site.description %>">
-<meta name="description" content="<%= data.site.description %>">
-<meta name="og:title" content="<%= data.site.title %>">
+<meta name="description" content="<%= current_page.data.description || data.site.description %>">
+<meta name="og:title" content="<%= "#{current_page.data.title || data.site.title} - Quentin Bellanger" %>">
 <meta name="og:image" content="/images/og.png">
 <meta name="og:type" content="website">
-<meta name="og:url" content="<%= data.site.base_url %>">
-<meta name="twitter:title" content="<%= data.site.title %>">
+<meta name="og:url" content="<%= "#{data.site.base_url}#{current_page.url}" %>">
+<meta name="twitter:title" content="<%= "#{current_page.data.title || data.site.title} - Quentin Bellanger" %>">
 <meta name="twitter:image" content="/images/og.png">
 <meta name="twitter:card" content="summary">
 
