@@ -5,6 +5,6 @@ intro: "I write about the web."
 pageable: true
 ---
 
-<%= partial 'partials/hero', locals: { title: current_page.data.title, description: current_page.data.intro } %>
+<%= partial 'partials/hero', locals: { title: current_page.data.title, intro: current_page.data.intro } %>
 <%= partial 'partials/posts', locals: { articles: page_articles } %>
 <%= partial 'partials/pagination' %>
