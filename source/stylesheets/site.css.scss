@@ -19,7 +19,7 @@ body {
     padding: 0 map-get($spacing, 'medium');
 
     @include mobile {
-      margin-top: map-get($spacing, 'x-large') * 1.5;
+      margin-top: map-get($spacing, 'large');
     }
 
     a {
