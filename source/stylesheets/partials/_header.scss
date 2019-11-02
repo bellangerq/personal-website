@@ -16,6 +16,8 @@ header {
   }
 
   nav {
+    max-width: map-get($spacing, 'medium') * 50;
+    margin: 0 auto;
     padding: 0 map-get($spacing, 'medium');
 
     > a {
@@ -32,6 +34,7 @@ header {
       overflow-x: auto;
       padding: 0;
       white-space: nowrap;
+      text-align: right;
 
       li {
         display: inline-block;
@@ -39,6 +42,10 @@ header {
         font-weight: map-get($weights, 'semibold');
         letter-spacing: 0.05em;
         text-transform: uppercase;
+
+        &:first-child {
+          float: left;
+        }
 
         & + li {
           margin-left: map-get($spacing, 'medium');
