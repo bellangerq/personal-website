@@ -9,6 +9,10 @@
 @import './partials/posts';
 @import './partials/pagination';
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: map-get($colors, 'white');
   min-height: 100vh;
@@ -35,6 +39,7 @@ body {
         box-shadow: inset 0 -0.5em 0 map-get($colors, 'secondary');
         border-bottom: 0.1em solid map-get($colors, 'secondary');
         outline: 0.1em solid map-get($colors, 'primary');
+        outline-offset: map-get($spacing, 'x-small');
       }
     }
   }
@@ -45,6 +50,7 @@ body {
     *::after {
       animation-duration: 0.001ms !important;
       animation-iteration-count: 1 !important;
+      scroll-behavior: auto;
       transition-duration: 0.001ms !important;
     }
   }
