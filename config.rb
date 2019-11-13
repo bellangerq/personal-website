@@ -13,11 +13,13 @@ activate :blog do |blog|
   blog.layout = "article"
 end
 
+
 set :markdown, gh_blockcode: true, fenced_code_blocks: true
 set :markdown_engine, :redcarpet
 
 activate :autoprefixer
 activate :syntax
+activate :directory_indexes
 
 configure :development do
   activate :livereload
