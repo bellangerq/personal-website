@@ -1,5 +1,5 @@
 ---
-title: 2019 year in review
+title: 2019 in review
 description: A humble throwback on what happened in 2019 on a personal and professional level. And some wishes for 2020!
 date: 2020-01-02
 ---
