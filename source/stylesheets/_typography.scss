@@ -43,6 +43,11 @@ p {
   }
 }
 
+ul, li {
+  color: map-get($colors, 'gray-dark');
+  line-height: 1.6;
+}
+
 a {
   outline: none;
   text-decoration: none;
