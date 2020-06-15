@@ -21,3 +21,4 @@ gem "builder", "~> 3.0"
 gem "middleman-livereload", "~> 3.4.3"
 
 gem 'middleman-autoprefixer'
+gem "activesupport", ">= 5.2.4.3"
