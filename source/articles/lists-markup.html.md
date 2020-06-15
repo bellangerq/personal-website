@@ -1,7 +1,7 @@
 ---
 title: Marking up lists
 description: Lists
-date: 2020-06-20
+date: 2020-06-16
 ---
 
 As shortly [defined on Wikipedia](https://en.wikipedia.org/wiki/List):
