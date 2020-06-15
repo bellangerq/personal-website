@@ -8,9 +8,9 @@ activate :blog do |blog|
   blog.per_page = 8
   blog.page_link = "{num}"
   blog.sources = "articles/{title}.html"
-  blog.tag_template = "tag.html"
   blog.default_extension = ".md"
   blog.layout = "article"
+  blog.new_article_template = File.expand_path('source/templates/article_template.erb', File.dirname(__FILE__))
 end
 
 
