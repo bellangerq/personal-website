@@ -1,5 +1,5 @@
 ---
-title: Marking up lists
+title: How to markup lists
 description: Lists
 date: 2020-06-16
 ---
