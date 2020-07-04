@@ -129,11 +129,7 @@ What we've seen before is the basic knowledge about HTML lists. But they allow u
 	</ol>
 	```
 
-<!-- <div class="callout callout-info"> -->
-
 ⚠️ [As stated on <abbr title="Mozilla Developer Network">MDN</abbr>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol), while there is a `type` attribute, it is not recommended to use it. Use the CSS `list-style-type` property instead.
-
-<!-- </div> -->
 
 ## Common use cases
 
