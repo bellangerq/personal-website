@@ -27,3 +27,11 @@ middleman
 ```shell
 middleman build
 ```
+
+## Blogging
+
+### Create a new article
+
+```shell
+bundle exec middleman article article-slug
+```
