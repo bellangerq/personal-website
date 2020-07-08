@@ -14,7 +14,7 @@ People are probably familiar with the default tooltip messages that may appear w
 
 ### Getting the validation state
 
-This native API first allows us to get information about the validation state of form fields: the `checkValidity()` can be called on form elements (`<input>`, `<select>`, `<textarea>`, `<fieldset>`). It returns a boolean (`true` is the field is valid, `false` otherwise):
+This native API first allows us to get information about the validation state of form fields: the `checkValidity()` method can be called on form elements (`<input>`, `<select>`, `<textarea>`, `<fieldset>`). It returns a boolean (`true` is the field is valid, `false` otherwise):
 
 ```javascript
 const field = document.querySelector('input')
