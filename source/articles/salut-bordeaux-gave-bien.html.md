@@ -8,11 +8,11 @@ _Short summary in English: I'm leaving Bordeaux after 6 years. It was a wonderfu
 
 Je quitte Bordeaux après environ 6 années passées à ses côtés. Ce furent 6 années extrêmement enrichissantes autant sur le plan professionnel que personnel.
 
-Je suis passé d'étudiant à l'INSEEC à community manager chez Wopata où j'ai fait mes premiers _vrais_ pas dans le monde pro. Puis comme développeur web chez Muxu·Muxu et chez HelloAsso et enfin, plus récemment, en tant qu'indépendant.
+Je suis passé d'étudiant à l'INSEEC à community manager chez Wopata où j'ai fait mes premiers _vrais_ pas dans le monde pro. Puis comme développeur web chez Muxu·Muxu et chez HelloAsso et enfin, plus récemment, en tant qu'[indépendant](https://slash-tmp.dev).
 
 Au fil de cette évolution, j'ai pu rencontrer des personnes formidables. Collègues, connaissances, ami·es ou un mix des 3. Certaines que je côtoie toujours et que j'espère côtoyer encore longtemps, même à distance.
 
-6 ans c'est à la fois rien et en même temps beaucoup. D'accord, j'en ai fait le tour et j'en ai bien profité mais c'est clair que tu vas me manquer Bordeaux, merci à toi.
+6 ans c'est à la fois rien et en même temps beaucoup. D'accord, j'en ai fait le tour et j'en ai bien profité mais c'est clair que tu vas me manquer Bordeaux, **merci à toi**.
 
 Bref, les clefs de l'appartement ont été rendues aujourd'hui. **Le nouveau chapitre s'écrit à Tours et promet d'être au moins autant excitant que le précédent, surtout entouré des personnes qui comptent le plus pour moi. 👧🏼 🐶**
 
