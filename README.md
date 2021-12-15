@@ -19,13 +19,13 @@ bundle install
 ### Run local server
 
 ```shell
-middleman
+bundle exec middleman
 ```
 
 ### Build static
 
 ```shell
-middleman build
+bundle exec middleman build
 ```
 
 ## Blogging
